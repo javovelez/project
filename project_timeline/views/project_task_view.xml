@@ -9,7 +9,7 @@
         <field name="type">timeline</field>
         <field name="arch" type="xml">
             <timeline
-                date_start="date_assign"
+                date_start="date_start"
                 date_stop="date_end"
                 default_group_by="project_id"
                 event_open_popup="true"

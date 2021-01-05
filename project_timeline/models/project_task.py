@@ -12,3 +12,7 @@ class ProjectTask(models.Model):
         res = super().update_date_end(stage_id)
         res.pop("date_end", None)
         return res
+
+    date_start = fields.Datetime(string='Starting Date',
+    default=fields.Datetime.now,
+    index=True, copy=False)
