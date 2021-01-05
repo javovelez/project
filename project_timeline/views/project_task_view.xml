@@ -67,6 +67,7 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='date_assign']" position="after">
                 <field name="date_end" />
+                <field name="date_start" />
             </xpath>
         </field>
     </record>
